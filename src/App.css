@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+body {
+  background: #1c1c1c;
+  color: #eaeaea;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main wrapper */
+.app {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Title */
+.title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.joke-btn {
+  background: #0f0f0f;
+  color: #ffffff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+}
+
+.joke-btn:hover {
+  transform: translateY(-2px);
+  background: #151515;
+}
+
+/* Joke box */
+.joke-box {
+  background: #2a2a2a;
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 14px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #dddddd;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+    0 15px 30px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.4s ease-in-out;
+}/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background: #232323;
+  color: #f3f3f3;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.joke-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Heading */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Button */
+button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-bottom: 2rem;
+}
+
+button:hover {
+  background: #444;
+}
+
+/* Joke card */
+.joke {
+  background: #2d2d2d;
+  color: #f3f3f3;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+  word-break: break-word;
+}
+
+
+/* Smooth appear */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
